@@ -16,17 +16,18 @@ btn_push.addEventListener('click', function(){
             "Connection" : "keep-alive"
         },
         body: JSON.stringify({
-            "msgid" : "12345",
-            "time" : "2021-12-31",
-            "cmdlist" : [
-                {
-                    "cmd" : "testSolarThinqAPI",
-                    "deviceId" : "3097",
-                    "option" : "push",
-                    "data" : "{}"
-                }
-            ]
-        }),
+    "msgid" : "12345",
+    "time" : "2021-12-31",
+    "cmdlist" : [
+        {
+            "cmd" : "testSolarThinqAPI",
+            "deviceId" : "2345",
+            "option" : "push"
+            "data" : {
+            }
+        }
+    ]
+}),
     }).then((response) => console.log(response));
     
     alert('Hello'+system_id);
