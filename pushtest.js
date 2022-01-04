@@ -23,8 +23,7 @@ btn_push.addEventListener('click', function(){
             "cmd" : "testSolarThinqAPI",
             "deviceId" : "2345",
             "option" : "push",
-            "data" : {
-            }
+            "data" : {}
         }
     ]
 }),
@@ -32,3 +31,4 @@ btn_push.addEventListener('click', function(){
     
     alert('Hello'+system_id);
 })
+
