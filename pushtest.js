@@ -21,7 +21,7 @@ btn_push.addEventListener('click', function(){
     "cmdlist" : [
         {
             "cmd" : "testSolarThinqAPI",
-            "deviceId" : "2345",
+            "deviceId" : system_id,
             "option" : "push",
             "data" : "{}"
         }
