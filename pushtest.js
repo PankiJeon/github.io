@@ -20,9 +20,8 @@ btn_push.addEventListener('click', function(){
     "time" : "2021-12-31",
     "cmdlist" : [
         {
-            "cmd" : "testSolarThinqAPI",
+            "cmd" : "testSolarPush",
             "deviceId" : system_id,
-            "option" : "push",
             "data" : {}
         }
     ]
